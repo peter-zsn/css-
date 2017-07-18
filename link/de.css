@@ -1,0 +1,21 @@
+/*未访问链接*/
+.baidu:link{
+    color: #00ff00;
+}
+
+/*已访问的链接*/
+.baidu:visited{
+    color: #ff00ff;
+}
+
+/*鼠标移动到连接*/
+.baidu:hover{
+    color: darkgoldenrod;
+    text-decoration: overline;
+}
+
+/*鼠标点击*/
+.baidu:active{
+    color: #4d26ff;
+    text-decoration:underline
+}

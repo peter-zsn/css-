@@ -1,0 +1,23 @@
+body{
+    /*背景颜色*/
+    background-color: blue;
+    /*背景图片*/
+    background-image: url("2.jpg");
+    /*水平方向平铺*/
+    background-repeat: repeat-x;
+    /*垂直方向平铺*/
+    background-repeat: repeat-y;
+    /*设置背景图像是否及如何重复。*/
+    background-repeat: no-repeat;
+    /*设置背景图像的起始位置。*/
+    background-position: center;
+    /*	背景图像是否固定或者随着页面的其余部分滚动。*/
+    background-attachment: fixed;
+    /*可以写在一起*/
+    background: #ffffff url("2.jpg") no-repeat right top fixed;
+}
+
+
+h1{
+    background-color: #6495ed;
+}

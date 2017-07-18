@@ -1,0 +1,57 @@
+body{
+    color: red;
+}
+
+h1{
+    color: #00ff00;
+    /*文本对齐方式*/
+    text-align: center;
+}
+
+.p{
+    color: #ff8727;
+    /*text-align: left;*/
+    direction: rtl;
+
+}
+
+.ex{
+    color: #ff44d9;
+    text-align: justify;
+    /*文本装饰*/
+    text-decoration: underline;
+    /*文本缩进*/
+    text-indent: 30px;
+    /*字符之间的距离*/
+    letter-spacing: 2px;
+    /*行间距  大多数浏览器的默认行高约为110%至120% */
+    line-height: 200%;
+    /*缩影*/
+    /*text-shadow: 2px 2px #ff0000;*/
+}
+
+a{
+    /*设置或删除文本的装饰 用来删除链接的下划线：*/
+    text-decoration: none;
+}
+
+.tear{
+    /*文本字符的转换*/
+    text-transform: lowercase;
+}
+
+/*
+color  	        设置文本颜色
+direction       设置文本方向
+letter-spacing  设置字符间距
+line-height     设置行高
+word-spacing    设置单词间距  似乎就是与空格分割有关
+text-align      对齐元素中的文本
+text-decoration 向文本添加修饰  下划线之类的
+text-indent     缩进元素中文本的首行
+text-shadow     设置文本缩影
+text-transform  控制元素中的字母
+white-space     设置元素中空白的处理方式
+vertical-align  设置元素的垂直对其
+
+*/

@@ -1,0 +1,37 @@
+table{
+    /*边界  这样写的都有边界*/
+    border: 2px solid black;
+    /*表格的边框是否被折叠成一个单一的边框或隔开*/
+    border-collapse: collapse;
+
+    width: 50%;
+    height: 100px;
+}
+
+th{
+    border: 1px solid black;
+    text-align: center;
+    height: 50px;
+    /*垂直对齐属性设置垂直对齐，比如顶部，底部或中间：*/
+    vertical-align: middle;
+}
+
+td{
+    border: 1px solid black;
+    text-align: center;
+    height: 50px;
+    /*垂直对齐属性设置垂直对齐，比如顶部，底部或中间：*/
+    vertical-align: middle;
+
+    /*表格填充 表的内容中控制空格之间的边框*/
+    padding: 10px;
+    /*表格颜色*/
+    background-color: #50fbff;
+    color: #ff8258;
+
+}
+
+caption{
+    /*设置表头的位置*/
+    caption-side: bottom;
+}
