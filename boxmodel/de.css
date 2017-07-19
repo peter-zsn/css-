@@ -1,0 +1,12 @@
+.first{
+    padding: 25px;
+    margin: 25px;
+    border: 25px solid #0067c6;
+}
+
+.sec{
+    padding: 10px;
+    /*margin: 10px;*/
+    width: 210px;
+    border: 10px solid black;
+}
