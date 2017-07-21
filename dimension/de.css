@@ -1,0 +1,19 @@
+.first{
+    height: auto;
+    width: auto;
+}
+
+.sec{
+    height: 100px;
+    width: 100px;
+}
+
+.th{
+    height: 50%;
+    width: 50%;
+}
+
+.for{
+    max-height: 100px;
+
+}

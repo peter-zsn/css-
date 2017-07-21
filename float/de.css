@@ -1,0 +1,17 @@
+.img_f{
+    width:100px;
+    height: 100px;
+    float: right;
+}
+
+.img_2{
+    width:100px;
+    height: 100px;
+    float: left;
+    margin:100px;
+}
+
+.text_line{
+    /*clear 属性指定元素两侧不能出现浮动元素*/
+    clear: both;
+}

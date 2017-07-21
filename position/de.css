@@ -1,0 +1,34 @@
+p{
+    margin: 50px 20px;
+}
+
+.fix{
+    position: fixed;
+    top:20px;
+    right: 30px;
+}
+
+.relative{
+    position: relative;
+    left: 20px;
+    /*光标制定的位置*/
+    cursor: help;
+}
+
+.absolute{
+    position: absolute;
+    left: 20px;
+}
+
+.div_t{
+    position: relative;
+    left: 20px;
+}
+
+/*裁剪*/
+.clip{
+    position: absolute;
+    clip:rect(0px,50px,100px,0px);
+    /*元素重叠位置*/
+    z-index: -1;
+}

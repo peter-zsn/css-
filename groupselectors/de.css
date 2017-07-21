@@ -1,0 +1,10 @@
+h1, p{
+   color: red;
+}
+.red_div{
+    background-color: #71ffe0;
+}
+
+.red_div p{
+    color: black;
+}
