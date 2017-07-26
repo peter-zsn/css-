@@ -1,0 +1,7 @@
+p:first-child{
+    color: blue;
+}
+
+p>i:first-child{
+    color: #ff8727;
+}

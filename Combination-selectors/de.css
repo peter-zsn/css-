@@ -1,0 +1,15 @@
+.first p{
+    background-color: #50fbff;
+}
+
+.secend>p{
+    background-color: yellow;
+}
+
+.secend+p{
+    background-color: #0067c6;
+}
+
+.three~p{
+    background-color: #ff8727;
+}
